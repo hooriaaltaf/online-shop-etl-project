@@ -1,0 +1,24 @@
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+secrets/
+credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw and processed data
+data/raw/
+data/processed/
+data/exports/
+
+# Temporary files
+*.log
+.DS_Store

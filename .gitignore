@@ -7,6 +7,7 @@ credentials.json
 
 # Python
 __pycache__/
+*.pyc
 *.py[cod]
 .venv/
 venv/
@@ -18,6 +19,7 @@ venv/
 data/raw/
 data/processed/
 data/exports/
+data/warehouse/
 
 # Temporary files
 *.log
